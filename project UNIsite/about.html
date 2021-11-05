@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<HTMl>
+    <Head>
+        <meta name="vewport" content="with=device-width, initial-scale=1.0" >
+        <TITLe>
+                DUET 
+        </TITLe>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+        <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+        -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </Head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"> <img src="assets/images/logo transparent duet.png"> </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">NOTICES</a></li>
+                        <li><a href="">ACADEMIC</a></li>
+                        <li><a href="">PUBLICATIONS</a></li>
+                        <li><a href="">LOGIN</a></li>
+                    </ul> 
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>About us</h1>           
+        </section>
+
+        <!----about us content-->
+
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>Preparing students to make meaningful contributions to society as engaged citizens and leaders in a complex world</h1>
+                    <p>Located in a serene and green campus, Dhaka University of Engineering & Technology (DUET), Gazipur is only about twenty kilometers away from Shahjalal International Airport. DUET is unique in its scope and mission to foster engineering education in Bangladesh as it offers B.Sc. Engineering/B. Arch. degree only to the eligible diploma engineers from around the country. The M.Sc. and Ph.D. programs are also open for all eligible candidates who are capable of pursuing scholarly endeavors with a view to engaging in lifelong learning and thereby accelerating the innovation and developments in the field of engineering and technology. </p>
+
+                </div>
+                <div class="about-col">
+                    <img src="assets/images/aboutus.jpg">
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!---Footer-->
+
+        <section class="footer">
+            <h4>CONTACT INFORMATION</h4>
+            <p>TEL:+88-02-49274003<br>PABX: +88-02-49274034-53<br>Fax: +88-02-49274001, +88-02-49274002</p>
+            <p>Mailing Address<br>
+                Registrar<br>
+                Dhaka University of Engineering & Technology, Gazipur<br>
+                Gazipur-1707, Bangladesh<br>
+                E-mail: reg_duet@duet.ac.bd<br>
+            </p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i> 
+                <i class="fa fa-twitter"></i> 
+                <i class="fa fa-instagram"></i> 
+              <i class="fa fa-linkedin"></i> 
+            </div>
+        </section>
+
+        <!---javascript-->
+    
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu()
+            {
+                navLinks.style.right = "0";
+            }
+            function hideMenu()
+            {
+                navLinks.style.right = "-200px"
+            }
+        </script>
+
+    </body>
+</HTMl>
